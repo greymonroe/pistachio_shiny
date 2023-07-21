@@ -3,7 +3,7 @@ library(data.table)
 library(ggplot2)
 
 ui <- fluidPage(
-  textInput("gene", "Enter gene:", "ptg000018l.2011"),
+  textInput("gene", "Enter gene (e.g. ptg000018l.1963, ptg000018l.2011):", "ptg000018l.1963"),
   plotOutput("plot")
 )
 
